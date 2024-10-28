@@ -37,8 +37,8 @@ Las contribuciones son bienvenidas. Si tienes sugerencias o mejoras, no dudes en
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más información.
+EEste proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ## Autor
 
-- **Rosmén Valencia** - [TuPerfilGitHub](https://github.com/tu-usuario)
+- **Rosmén Valencia** - [PerfilGitHub](https://github.com/RosmenPro)
