@@ -37,8 +37,60 @@ Las contribuciones son bienvenidas. Si tienes sugerencias o mejoras, no dudes en
 
 ## Licencia
 
-EEste proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ## Autor
 
 - **Rosmén Valencia** - [PerfilGitHub](https://github.com/RosmenPro)
+
+---
+
+# Memory Game with LocalStorage (game_pair_matching)
+
+This is a memory game project that allows players to match colored cards. The game state, including the opened cards and timer, is saved in LocalStorage, enabling players to continue where they left off after refreshing the page.
+
+## Features
+
+- **Card Interaction**: Players can click on cards to try to match them.
+- **Persistent Game State**: Uses LocalStorage to store the current game state, allowing players to resume their game after a refresh.
+- **Timer**: A timer that measures the elapsed time during the game.
+
+## Technologies Used
+
+- **JavaScript**: Main programming language for the game logic.
+- **HTML/CSS**: Structure and design of the user interface.
+- **LocalStorage**: Browser storage for game state.
+
+## Installation
+
+1. Clone this repository or download the files.
+2. Open the `index.html` file in your browser.
+
+## Usage
+
+1. When the game loads, you will be asked to enter the number of rows and columns. Ensure the total number of cards is even.
+2. Play by matching the cards. The game state will be automatically saved in LocalStorage.
+3. If you refresh the page, the game will restore the previous state, including the timer.
+
+## Code Structure
+
+- **Game.js**: Main class that handles the game logic, including card creation, match checking, and timer management.
+- **Box.js**: Class representing each card in the game, with properties like color, open state, and availability.
+- **Timer.js**: Class that manages the game timer.
+
+## Contributions
+
+Contributions are welcome. If you have suggestions or improvements, feel free to create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Author
+
+- **Rosmén Valencia** - [GitHubProfile](https://github.com/RosmenPro)
+
+
+
+
+
